@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reataurant Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="/css/style.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link href="logo/logo-1.png" rel="icon">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet" >
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  </head>
+<body>
+    
+    <!-- Navbar Start-->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fs-5 fixed-top" >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"id="logo" >
+           <img src="logo/logo-1.png" alt="logo" width="70" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#menu">Menu</a>
+            <a class="nav-link" href="#about-us">About Us</a>
+            <a class="nav-link" href="#people">People</a>
+            <a class="nav-link" href="#section-footer">Contact Us</a>
+          </div>
+        </div>
+        <div class="d-inline-flex align-items-center" id="social-icons">
+          <a class="btn btn-square btn-link" href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-square btn-link" href="" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-square btn-link" href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a class="btn btn-square btn-link" href="" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div id="theme-switcher"> 
+          <button type="button" class="btn btn-dark m-3" id="dark-light"><i class="fa-solid fa-circle-half-stroke"></i></button>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End-->
+    <!-- Welcome Massage Start-->
+    <div class="container-fluid" id="welcome-box">
+      <div class="row justify-content-center align-items-center">
+         <div class="col-lg-6 col-md-8 col-sm-6 mt-5 align-items-center" id="welcome-left">
+              <h1 class="p-3" > We create food with passion!</h1>
+              <h5 class="p-3" style="line-height: 2.0; text-align:justify; margin-right: 15%;" > We’re a lot more than just our food… Although we make beautiful food, beautifully served, we’re so much more than that.
+               We’re about the providing an experience, that is personalised & memorable… <br>We are Thynk – a way of life! 
+              </h5>
+              <img src="/img/tripadvisor-1.png" alt="tripadvisor">
+          </div>
+          <div class="col-lg-6 col-md-4" id="welcome-right"></div>
+       </div>
+    </div>
+    <!-- Welcome Massage End--> 
+
+    <!-- Iconic Dishes Start -->
+    <div class="container-fluid" id="iconic">
+     <div class="container mb-">
+      <h2 class="align-text-center pt-4">Our Iconic Dishes</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-5 mt-2 pb-5">
+        <div class="col">
+          <div class="card h-100" id="cards-iconic">
+            <img class="m-2" src="img/icon-dishes-1.png" class="card-img-top" alt="...">
+            <div class="card-body" id="card-body">
+              <h5 class="card-title">Pork Medallions</h5>
+              <p class="card-text">Pork fillet marinated in Moroccan spices & slow smoked cooked, to a delicate & juicy finish, served with mash potato & roasted vegetables (280g).</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Category: Main Dishes</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" id="cards-iconic">
+            <img class="m-2" src="img/icon-dishes-2.png" class="card-img-top" alt="...">
+            <div class="card-body" id="card-body">
+              <h5 class="card-title">Avocado Risotto</h5>
+              <p class="card-text">Avocado cream delicately mixed into arborio risotto creating a special creaminess, green peas folded in adding a natural sweetness & finished with roasted pistachios</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Category: Main Dishes</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" id="cards-iconic">
+            <img class="m-2" src="img/icon-dishes-3.png" class="card-img-top" alt="...">
+            <div class="card-body" id="card-body">
+              <h5 class="card-title">Anarofilo</h5>
+              <p class="card-text">Thin, crunchy filo pastry, layered with anari, crushed walnuts, cinnamon & honey - airy, crispy, flaky and decadent!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Category: Desserts</small>
+            </div>
+          </div>
+        </div>
+       </div>
+     </div> 
+    </div>
+    <!-- Iconic Dishes End -->
+
+    <!-- Menu Section Start -->
+    <div class="container-fluid" id="menu-wrapper">
+      <div class="container p-5" id="menu">
+       <h3 class="mt-3 align-text-center">Our Menu</h3>
+        <div class="row cols-lg-3 row-cols-md-3 row-cols-sm-1">
+          <div class="col-sm mb-3" id="food-menu">
+              <a href="/assets/Sample-Menu.pdf" target="_blank">
+                 <div class="image-container"> 
+                   <img src="/img/menu-food-1.jpg" class="img-fluid" alt="Food Menu">
+                     <h3 id="centered-text"> Food Menu</h3>
+                  </div>
+              </a>
+          </div>
+          <div class="col-sm mb-3" id="food-menu">
+            <a href="/assets/Sample-Menu.pdf" target="_blank">
+               <div class="image-container"> 
+                 <img src="/img/menu-dessert-1.jpg" class="img-fluid" alt="Desserts Menu">
+                   <h3 id="centered-text"> Desserts Menu</h3>
+                </div>
+            </a>
+          </div>
+          <div class="col-sm mb-3" id="food-menu">
+            <a href="/assets/Sample-Menu.pdf" target="_blank">
+              <div class="image-container"> 
+                <img src="/img/menu-drinks-1.jpg" class="img-fluid" alt="Drings Menu">
+                  <h3 id="centered-text"> Drinks Menu</h3>
+              </div>
+             </a>
+          </div>
+      </div>
+    </div>
+    <!-- Menu Section End-->
+
+    <!-- About Us Section Start -->
+    <div class="container-fluid" id="about-us">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 col-sm-12 p-3" id="about-left">
+           <h1>Farm to table for the flavour</h1>
+           <h5>Invite your friends, family or even business clients to enjoy a delightful meal at Thunk Cafe in the knowledge that you’re getting the best quality food available in an enchanting environment.We locally source most of our ingredients to ensure the freshest tastes on your plate.</h5>
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-12" id="about-right"></div>
+      </div>
+    </div>
+    <!-- About Us Section End -->
+
+    <!-- About Us Section End -->
+
+    <!-- People Section Start -->
+    <div class="container-fluid p-5" id="people">
+      <h3>Our People</h3>
+        <div class="row staff justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <img class="p-5" src="/img/Kitchen-Staff-1.png" alt="Chef">
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <img class="p-5" src="/img/Kitchen-Staff-2.png" alt="Manager">
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <img class="p-5" src="/img/Kitchen-Staff-3.png" alt="Founder">
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <img class="p-5" src="/img/Kitchen-Staff-4.png" alt="Sommelier">
+          </div>
+        </div>
+    </div>
+    <!-- People Section End -->
+    
+    <!-- FOOTER START-->
+    <section id="section-footer">
+     <div class="container text-body text-white" id="about-us-footer">
+      <footer class="py-3">
+        <div class="row">
+         <div class="col-4 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+           </ul>
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <h5>Specials</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Specials</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">A la carte</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Drinks</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Brunch</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bottomles Brunch</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms & Contition</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+          <div class="col-md-5 offset-md-1 mb-3">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117996.95037632967!2d-74.05953969406828!3d40.75468158321536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20Nowy%20Jork%2C%20Stany%20Zjednoczone!5e1!3m2!1spl!2spl!4v1672242444695!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2023 Thunk Cafe, Inc. All rights reserved.</p>
+          <p>Developed by <a href="https://github.com/AntonisChristaki" target="_blank">Antonis Christaki</a></p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </div>
+       </footer>
+     </div>
+   </section>
+   <!-- FOOTER END-->
+
+   <!-- COOKIES BUTTON-->
+   <div class="card cookie-alert">
+    <div class="card-body">
+      <h5 class="card-title">&#x1F36A; Do you like cookies?</h5>
+      <p class="card-text">We use cookies to ensure you get the best experience on our website.</p>
+      <div class="btn-toolbar justify-content-end">
+        <a href="http://cookiesandyou.com/" target="_blank" class="btn btn-link">Learn more</a>
+        <a href="#" class="btn btn-primary accept-cookies">Accept</a>
+      </div>
+    </div>
+  </div>
+
+   <!-- BACK TO TOP-->
+   <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn"><i class="bi bi-arrow-bar-up"></i></button>
+
+   <!-- Javascript Start-->
+   <script src="/js/main.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <script>
+     var prevScrollpos = window.pageYOffset;
+     window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-150px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
+    <script>
+      document.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.navbar');
+
+        if (window.scrollY > 0) {
+          navbar.classList.add('scrolled')
+        } else {
+          navbar.classList.remove('scrolled')
+        }
+      })
+    </script>
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+  
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+
+
+      <!-- Cookie Box -->
+      <script>
+        (function () {
+      "use strict";
+
+      var cookieAlert = document.querySelector(".cookie-alert");
+      var acceptCookies = document.querySelector(".accept-cookies");
+
+      cookieAlert.offsetHeight; 
+
+      if (!getCookie("acceptCookies")) {
+         cookieAlert.classList.add("show");
+      }
+
+      acceptCookies.addEventListener("click", function () {
+          setCookie("acceptCookies", true, 60);
+          cookieAlert.classList.remove("show");
+        });
+     })();
+
+     // Cookie  //
+    function setCookie(cname, cvalue, exdays) {
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+      var expires = "expires=" + d.toUTCString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) === ' ') {
+              c = c.substring(1);
+          }
+          if (c.indexOf(name) === 0) {
+              return c.substring(name.length, c.length);
+          }
+      }
+      return "";
+    }
+      </script>
+
+      <!-- Switch Theme -->
+      <script>
+        //switch function
+        const switchTheme = () => {
+          //Get root elementv and data theme value
+          const rootElem = document.documentElement
+          let dataTheme = rootElem.getAttribute('data-theme'),
+            newTheme
+          newTheme = (dataTheme === 'light') ? 'dark' : 'light'
+
+         //Set new HTML Attribute
+         rootElem.setAttribute('data-theme', newTheme)
+         }
+
+        //Add event listener for the theme switcher
+        document.querySelector("#theme-switcher").addEventListener('click', switchTheme)
+      </script>
+    <!-- Javascript End-->
+</body>
+</html>
